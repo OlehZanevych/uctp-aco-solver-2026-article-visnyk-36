@@ -1,0 +1,18 @@
+Loading dataset 3...
+Loaded: 100 courses, 20 lecturers, 32 groups, 20 rooms
+
+Running ACO with 20 ants, 100 iterations...
+Iteration 0: Cost = 451360 (HC: 45, Gaps: 132, Undes: 8)
+Iteration 1: Cost = 441230 (HC: 44, Gaps: 121, Undes: 4)
+Iteration 2: Cost = 431710 (HC: 43, Gaps: 170, Undes: 2)
+Iteration 4: Cost = 361300 (HC: 36, Gaps: 129, Undes: 2)
+
+=== FINAL SOLUTION ===
+Cost: 361300
+Hard Violations: 36
+Gap Penalty: 129
+Undesirable Penalty: 2
+Runtime: 4.1555 seconds
+
+Solution saved to dataset_3_solution.csv
+Iteration history saved to dataset_3_iterations.csv

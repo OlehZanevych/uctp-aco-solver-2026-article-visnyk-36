@@ -1,0 +1,40 @@
+University Course Timetabling Problem - ACO Solver
+Courses: 100, Lecturers: 10, Groups: 15, Rooms: 10
+ACO Parameters: Ants=20, Iterations=100
+
+=== COMPARISON MODE ===
+
+--- Standard ACO (Full Search) ---
+Iteration 0: New best cost = 581330 (HC: 58, Gaps: 129, Undes: 8)
+Iteration 6: New best cost = 551510 (HC: 55, Gaps: 148, Undes: 6)
+Iteration 7: New best cost = 541395 (HC: 54, Gaps: 137, Undes: 5)
+Iteration 12: New best cost = 531380 (HC: 53, Gaps: 136, Undes: 4)
+Iteration 35: New best cost = 501315 (HC: 50, Gaps: 130, Undes: 3)
+
+Standard ACO Results:
+  Cost: 501315
+  Hard Violations: 50
+  Gap Penalty: 130
+  Undesirable Penalty: 3
+  Runtime: 3.31584 seconds
+
+--- Heuristic Caching ACO (Speedup) ---
+Iteration 0: New best cost = 551365 (HC: 55, Gaps: 133, Undes: 7)
+Iteration 1: New best cost = 541390 (HC: 54, Gaps: 135, Undes: 8)
+Iteration 6: New best cost = 511205 (HC: 51, Gaps: 119, Undes: 3)
+Iteration 7: New best cost = 491260 (HC: 49, Gaps: 125, Undes: 2)
+Iteration 8: New best cost = 461485 (HC: 46, Gaps: 148, Undes: 1)
+
+Heuristic Caching ACO Results:
+  Cost: 461485
+  Hard Violations: 46
+  Gap Penalty: 148
+  Undesirable Penalty: 1
+  Runtime: 2.16478 seconds
+
+=== COMPARISON SUMMARY ===
+Speedup: 1.53x
+Cost difference: -39830.00
+Quality ratio: 0.92
+
+Comparison results saved to comparison_results.csv

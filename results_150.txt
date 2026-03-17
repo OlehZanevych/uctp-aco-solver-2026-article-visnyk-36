@@ -1,0 +1,45 @@
+University Course Timetabling Problem - ACO Solver
+Courses: 150, Lecturers: 10, Groups: 15, Rooms: 10
+ACO Parameters: Ants=20, Iterations=100
+
+=== COMPARISON MODE ===
+
+--- Standard ACO (Full Search) ---
+Iteration 0: New best cost = 1.24192e+06 (HC: 124, Gaps: 187, Undes: 11)
+Iteration 6: New best cost = 1.22200e+06 (HC: 122, Gaps: 198, Undes: 5)
+Iteration 11: New best cost = 1.21206e+06 (HC: 121, Gaps: 204, Undes: 3)
+Iteration 13: New best cost = 1.19201e+06 (HC: 119, Gaps: 196, Undes: 10)
+Iteration 16: New best cost = 1.18179e+06 (HC: 118, Gaps: 175, Undes: 8)
+Iteration 36: New best cost = 1.17186e+06 (HC: 117, Gaps: 182, Undes: 7)
+Iteration 46: New best cost = 1.12161e+06 (HC: 112, Gaps: 158, Undes: 6)
+
+Standard ACO Results:
+  Cost: 1.12161e+06
+  Hard Violations: 112
+  Gap Penalty: 158
+  Undesirable Penalty: 6
+  Runtime: 5.25112 seconds
+
+--- Heuristic Caching ACO (Speedup) ---
+Iteration 0: New best cost = 1.28196e+06 (HC: 128, Gaps: 192, Undes: 7)
+Iteration 1: New best cost = 1.27164e+06 (HC: 127, Gaps: 163, Undes: 2)
+Iteration 5: New best cost = 1.24208e+06 (HC: 124, Gaps: 204, Undes: 7)
+Iteration 6: New best cost = 1.19194e+06 (HC: 119, Gaps: 191, Undes: 6)
+Iteration 7: New best cost = 1.19184e+06 (HC: 119, Gaps: 180, Undes: 7)
+Iteration 14: New best cost = 1.18172e+06 (HC: 118, Gaps: 167, Undes: 10)
+Iteration 26: New best cost = 1.1615e+06 (HC: 116, Gaps: 145, Undes: 9)
+Iteration 52: New best cost = 1.14180e+06 (HC: 114, Gaps: 178, Undes: 5)
+
+Heuristic Caching ACO Results:
+  Cost: 1.14180e+06
+  Hard Violations: 114
+  Gap Penalty: 178
+  Undesirable Penalty: 5
+  Runtime: 3.27539 seconds
+
+=== COMPARISON SUMMARY ===
+Speedup: 1.60x
+Cost difference: 20195.00
+Quality ratio: 1.02
+
+Comparison results saved to comparison_results.csv

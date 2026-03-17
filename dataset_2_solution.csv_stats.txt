@@ -1,0 +1,5 @@
+Runtime: 1.08703 seconds
+Total Cost: 220740
+Hard Violations: 22
+Gap Penalty: 73
+Undesirable Penalty: 2

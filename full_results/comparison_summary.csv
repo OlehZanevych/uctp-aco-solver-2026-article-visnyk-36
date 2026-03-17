@@ -1,0 +1,11 @@
+Dataset,Courses,Method,Runtime,Cost,HardViolations,GapPenalty,UndesirablePenalty
+1,25,Standard,0.30567,10175,1,16,3
+1,25,Cached,0.293014,10175,1,17,1
+2,50,Standard,1.11776,220680,22,68,0
+2,50,Cached,1.08703,220740,22,73,2
+3,100,Standard,4.1555,361300,36,129,2
+3,100,Cached,4.14061,361215,36,120,3
+4,200,Standard,16.1744,723000,72,296,8
+4,200,Cached,16.1343,672965,67,292,9
+5,400,Standard,63.6034,1.35539e+06,135,532,14
+5,400,Cached,63.5609,1.40530e+06,140,522,17

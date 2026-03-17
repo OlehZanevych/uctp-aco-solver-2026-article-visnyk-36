@@ -1,0 +1,22 @@
+Loading dataset 5...
+Loaded: 400 courses, 80 lecturers, 128 groups, 80 rooms
+
+Running ACO with 20 ants, 100 iterations...
+Iteration 0: Cost = 1.54583e+06 (HC: 154, Gaps: 570, Undes: 26)
+Iteration 1: Cost = 1.54562e+06 (HC: 154, Gaps: 554, Undes: 17)
+Iteration 2: Cost = 1.47551e+06 (HC: 147, Gaps: 544, Undes: 14)
+Iteration 3: Cost = 1.46550e+06 (HC: 146, Gaps: 541, Undes: 19)
+Iteration 5: Cost = 1.46522e+06 (HC: 146, Gaps: 511, Undes: 21)
+Iteration 8: Cost = 1.46519e+06 (HC: 146, Gaps: 512, Undes: 14)
+Iteration 9: Cost = 1.40598e+06 (HC: 140, Gaps: 589, Undes: 18)
+Iteration 17: Cost = 1.40530e+06 (HC: 140, Gaps: 522, Undes: 17)
+
+=== FINAL SOLUTION ===
+Cost: 1.40530e+06
+Hard Violations: 140
+Gap Penalty: 522
+Undesirable Penalty: 17
+Runtime: 63.5609 seconds
+
+Solution saved to dataset_5_solution.csv
+Iteration history saved to dataset_5_iterations.csv
